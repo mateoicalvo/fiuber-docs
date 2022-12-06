@@ -1,10 +1,12 @@
-Welcome to Lumache's documentation!
+Welcome to FI-UBER documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**FI-UBER** is a project developed as an assignment for *Taller de Programación II*
+at *Universidad de Buenos Aires*. The goal was implementing an app
+that allows passengers to hail a ride and drivers to charge fares and get paid.
+
+In this docs you can find a general overview of said project, descriptions
+of some technical decisions and recomendations regarding developer experience.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
