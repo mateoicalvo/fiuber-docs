@@ -26,3 +26,4 @@ Contents
    architecture
    developer_experience
    tech_stack
+   devops

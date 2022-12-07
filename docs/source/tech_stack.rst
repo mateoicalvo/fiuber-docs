@@ -3,11 +3,14 @@ Tech Stack
 
 The following technologies were used to develop this project:
 
-Programming Languages
----------------------
+Programming Languages & Libraries
+---------------------------------
 
-- Python 3.10.7
-- Javascript ES6
+Python 3.10.7
+~~~~~~~~~~~~~
+
+Javascript ES6
+~~~~~~~~~~~~~~
 
 Web Frameworks
 --------------
