@@ -8,8 +8,7 @@ that allows passengers to hail a ride and drivers to charge fares and get paid.
 In these docs you can find a general overview of said project, descriptions
 of some technical decisions and recomendations regarding developer experience.
 
-Check out the :doc:`overview` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`overview` section for further information.
 
 .. note::
 
@@ -26,4 +25,3 @@ Contents
    devops
    developer_experience
    tech_stack
-   usage
