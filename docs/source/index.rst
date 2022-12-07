@@ -20,10 +20,10 @@ Contents
 
 .. toctree::
 
-   usage
-   api
    overview
    architecture
+   api
+   devops
    developer_experience
    tech_stack
-   devops
+   usage
