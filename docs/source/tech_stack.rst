@@ -29,7 +29,7 @@ DBMS
 ----
 
 PostgreSQL
-~~~~~~~
+~~~~~~~~~~
 
 **Website**: https://www.postgresql.org/
 
