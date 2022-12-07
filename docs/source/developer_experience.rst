@@ -1,7 +1,9 @@
 Developer Experience
 ====================
 
-DevX here
+In this section we give a description of the typical developer workflow, the suggested tools,
+and some useful commands.
+
 
 Setting Up Local Environment
 ----------------------------
@@ -17,10 +19,18 @@ IDE: Visual Studio Code
 Alongside Intellisense and debugging utilities, some extensions made
 developing easier:
 
-- `Dev Containers <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers>`__:
-- `Peacock <https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock>`__:
-- `Todo Tree <https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree>`__:
+- `Dev Containers <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers>`__: enables working without installing a single dependency in the developer's computer.
+- `Peacock <https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock>`__: allows theming each VSCode workspace with a custom color.
+- `Todo Tree <https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree>`__: provides hihglighting for ``TODOs`` and ``FIXMEs``.
 
+
+Shell output formatting: colout
+"""""""""""""""""""""""""""""""
+
+**Website**: https://nojhan.github.io/colout/
+
+This tool allows coloring output with pattern matching. Having a certain color assigned to each
+microservice allowed us to quickly find logs and the corresponding IDE window. 
 
 Local Log Monitoring
 ~~~~~~~~~~~~~~~~~~~~
