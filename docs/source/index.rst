@@ -8,7 +8,7 @@ that allows passengers to hail a ride and drivers to charge fares and get paid.
 In this docs you can find a general overview of said project, descriptions
 of some technical decisions and recomendations regarding developer experience.
 
-Check out the :doc:`usage` section for further information, including
+Check out the :doc:`overview` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
@@ -22,3 +22,6 @@ Contents
 
    usage
    api
+   overview
+   architecture
+   developer_experience
