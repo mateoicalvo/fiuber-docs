@@ -3,7 +3,7 @@ API
 
 OpenAPI documentation can be accessed following this `link <https://g4-fiuber.herokuapp.com/docs>`__.
 
-Here's a list of OpenAPI documentation pages for each microservice:
+Also, here's a list of OpenAPI documentation pages for each microservice:
 
 - **Users**: `link <https://g4-fiuber-service-users.herokuapp.com/docs>`__.
 - **Trips**: `link <https://g4-fiuber-service-trips.herokuapp.com/docs>`__.
