@@ -1,0 +1,24 @@
+version: "3.7"
+
+services:
+  docs:
+    hostname: docs
+    image: sphinxdoc/sphinx:latest
+    container_name: fiuber.docs.dev
+    volumes:
+      - .:/opt/app
+    working_dir: '/opt/app'
+    environment:
+      - SERVICE_USERS_HOST=1234
+    networks:
+      - fiuber
+    ports:
+      - 36000:8000
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    entrypoint: "python3 -m http.server"
+
+networks:
+  fiuber:
+    driver: bridge
+    name: fiuber
