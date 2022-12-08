@@ -1,1 +1,1 @@
-sphinxcontrib-video==0.0.1.dev3
+sphinxcontrib-youtube==1.2.0 

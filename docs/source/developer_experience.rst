@@ -68,7 +68,4 @@ Developing Inside Docker Containers
 Using the suggested VSCode extensions enables linting, debugging, troubleshooting and Intellisense
 inside each container, as seen in the video below:
 
-.. video:: /docs/source/videos/attach_vscode.mp4
-   :width: 500
-   :height: 300
-   
+..  youtube:: Jx8RjQttIqg
