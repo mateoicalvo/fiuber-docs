@@ -42,6 +42,14 @@ Other functionality related to trips, for example *geocoding*, is handled here.
 What's more, the *polylines* to be drawn both in the rider and the driver's map
 is generated in this microservice.
 
+..  graphviz::
+    :caption: In this request, a list of blog posts is displayed.
+
+    digraph {
+        node [shape = circle];
+	    0 -> 2 [label = "SS(B)"];
+    }
+
 Pricing
 ~~~~~~~
 
