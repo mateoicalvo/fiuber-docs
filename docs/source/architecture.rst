@@ -42,13 +42,31 @@ Other functionality related to trips, for example *geocoding*, is handled here.
 What's more, the *polylines* to be drawn both in the rider and the driver's map
 is generated in this microservice.
 
+Let's take a look at trip *states*. Although the state machine for a real application
+would be much more complicated, the basic flow should be something like:
+
 ..  graphviz::
-    :caption: In this request, a list of blog posts is displayed.
+    :caption: Flow of possible trip states.
+    :align: center
 
     digraph {
-        node [shape = circle];
-	    0 -> 2 [label = "SS(B)"];
+        lfd [label="Looking\nFor\nDriver"];
+        abd [label="Accepted\nBy\nDriver"];
+        dw [label="Driver\nWaiting"];
+        og [label="Ongoing"];
+        f [label="Finished"];
+
+	    lfd -> abd [label = "A driver accepts the trip" fontsize="12pt"];
+        abd -> abd [label = "The driver updates his location" fontsize="12pt"];
+        abd -> dw [label = "Driver arrives at rider's location" fontsize="12pt"];
+        dw -> og [label = "The trip starts" fontsize="12pt"];
+        og -> og [label = "The driver updates his location" fontsize="12pt"];
+        og -> f [label = "The driver confirms the trip has finished" fontsize="12pt"];
     }
+
+The distinction of *who* accepts or updates the state might sound obvious or redundant
+at first, but it's more future proof if we want to support cancellations or more
+thorough validations in the future.
 
 Pricing
 ~~~~~~~
