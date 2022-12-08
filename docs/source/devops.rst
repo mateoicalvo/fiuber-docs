@@ -43,6 +43,12 @@ that were only used locally in the production code.
     fiuber.api-gateway            dev    db71c5eae91d   4 weeks ago    395MB
     fiuber.service-pricing        dev    1dcc9382b25b   6 weeks ago    225MB
 
+
+All third party libraries were installed in the containers at build time using
+``pip`` and ``npm`` for Python and Javascript respectively. Refer to
+``requirements.txt`` and ``package.json`` files in any microservice repository
+to see which libraries are used.
+
 Environment Variables
 ~~~~~~~~~~~~~~~~~~~~~
 

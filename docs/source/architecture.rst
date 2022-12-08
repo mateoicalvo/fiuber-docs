@@ -8,6 +8,39 @@ API Gateway.
 Microservices
 -------------
 
+Here's a global overview of message sending between microservices.
+
+..  graphviz::
+    :caption: Comunication between microservices.
+    :align: center
+
+    digraph {
+        gateway [label="API\nGateway"];
+        users [label="Users"];
+        trips [label="Trips"];
+        pricing [label="Pricing"];
+        payments [label="Payments"];
+
+	    gateway -> users;
+        gateway -> trips;
+        gateway -> pricing;
+        gateway -> payments;
+
+        trips -> pricing;
+        trips -> users;
+
+        pricing -> users;
+        pricing -> trips;
+    }
+
+..  warning::
+    The proposed flow of data might neither optimal nor best. We were learning microservices
+    as we developed the entire project from scratch.
+
+The Gateway is the only entrypoint to the application's backend. All other microservices being
+in the same datacenter enables low respsonse time between microservices. In a real world
+scenario, *proxy servers* should be deployed around the world if we want to reduce latency.
+
 API Gateway
 ~~~~~~~~~~~
 
