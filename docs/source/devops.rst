@@ -81,7 +81,7 @@ Coverage
 
 Despite the fact that on each run the percentage of lines of code covered
 was informed by the test runner, more detailed reports were automatically
-set up via *Coveralls*.
+set up via *Codecov*.
 
 Linting
 -------
