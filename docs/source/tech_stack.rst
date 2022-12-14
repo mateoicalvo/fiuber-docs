@@ -89,3 +89,8 @@ Javascript ES6
 - nodemon: ^2.0.20
 - pg: ^8.8.0
 - tap: ^16.3.0
+
+Solidity
+~~~~~~~~
+
+In the implemented Smart Contract.

@@ -117,3 +117,12 @@ respectively.
 
 Payments
 ~~~~~~~~
+
+Here's where transactions are made. *Smart Contracts* implemented
+in Solidity, using *Goerli's* testnet, allow creating wallets,
+payments and withdrawals in result of trips completion. So,
+drivers make and withdraw money using the app.
+
+Newcomers are granted 0.03 ETH at registration time to
+incentivate using the app. A value of 20% is set as FIUBER's
+comission for using the app.
