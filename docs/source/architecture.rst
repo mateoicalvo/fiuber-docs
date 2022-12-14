@@ -126,3 +126,11 @@ drivers make and withdraw money using the app.
 Newcomers are granted 0.03 ETH at registration time to
 incentivate using the app. A value of 20% is set as FIUBER's
 comission for using the app.
+
+Payments, granted the trip has ended, are made
+from the user's wallet to the driver's, applyoing
+the previously mentioned fee.
+
+.. note::
+
+   Transaction listing and general metrics are also implemented here, inside this microservice
